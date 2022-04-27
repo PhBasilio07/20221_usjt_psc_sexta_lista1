@@ -23,7 +23,7 @@ public class Ex4 {
                        }
                     }
              System.out.println("O numero de alunos aprovados foi de: " +numeroaprovados);
-             System.out.println("O percentual de aprovados e :" +(numeroaprovados * 100) / numeroalunos + " (%)");//fazendo numeroaprovados/numeroalus e multiplicando por 100 não chega o valor de 40 %
+             System.out.println("O percentual de aprovados e :" +(numeroaprovados * 100) / numeroalunos + " (%)");
              System.out.printf("A media da turma e : %.1f %n" ,mediaturma / numeroalunos);
             }
         }while(numeroturma != 0);      
